@@ -1,0 +1,10 @@
+D:\DemoCode\并发编程\后台线程\bin\Debug\后台线程.exe.config
+D:\DemoCode\并发编程\后台线程\bin\Debug\后台线程.exe
+D:\DemoCode\并发编程\后台线程\bin\Debug\后台线程.pdb
+D:\DemoCode\并发编程\后台线程\obj\Debug\后台线程.csprojAssemblyReference.cache
+D:\DemoCode\并发编程\后台线程\obj\Debug\后台线程.Form1.resources
+D:\DemoCode\并发编程\后台线程\obj\Debug\后台线程.Properties.Resources.resources
+D:\DemoCode\并发编程\后台线程\obj\Debug\后台线程.csproj.GenerateResource.cache
+D:\DemoCode\并发编程\后台线程\obj\Debug\后台线程.csproj.CoreCompileInputs.cache
+D:\DemoCode\并发编程\后台线程\obj\Debug\后台线程.exe
+D:\DemoCode\并发编程\后台线程\obj\Debug\后台线程.pdb
