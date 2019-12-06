@@ -1,7 +1,0 @@
-D:\DemoCode\并发编程\参数化Thread\bin\Debug\参数化Thread.exe.config
-D:\DemoCode\并发编程\参数化Thread\bin\Debug\参数化Thread.exe
-D:\DemoCode\并发编程\参数化Thread\bin\Debug\参数化Thread.pdb
-D:\DemoCode\并发编程\参数化Thread\obj\Debug\参数化Thread.csproj.CoreCompileInputs.cache
-D:\DemoCode\并发编程\参数化Thread\obj\Debug\参数化Thread.exe
-D:\DemoCode\并发编程\参数化Thread\obj\Debug\参数化Thread.pdb
-D:\DemoCode\并发编程\参数化Thread\obj\Debug\参数化Thread.csprojAssemblyReference.cache
