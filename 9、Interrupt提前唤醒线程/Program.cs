@@ -26,7 +26,7 @@ namespace Interrupt提前唤醒线程
             t1.Start();
             Thread.Sleep(1000);
             t1.Interrupt();
-        
+            Console.ReadKey();
         }
     }
 }

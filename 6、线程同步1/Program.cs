@@ -32,7 +32,7 @@ namespace 线程同步1
             });
 
             t2.Start();
-            //while (t1.IsAlive) { }
+            //while (t1.IsAlive) { } //如果线程存活就一直循环
             //while (t2.IsAlive) { }
 
             t1.Join(); // 让当前线程等待t1线程执行结束

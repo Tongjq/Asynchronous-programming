@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.902
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29503.13
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1、启用一个线程执行一段代码", "1、启用一个线程执行一段代码\1、启用一个线程执行一段代码.csproj", "{016166C1-D2FE-4EA7-8BF3-B52D7B341C98}"
 EndProject
@@ -23,11 +23,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7、线程同步问题解�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8、终止线程Abort", "8、终止线程Abort\8、终止线程Abort.csproj", "{16E5B114-DA07-4822-8582-90419ABCA80A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9、Interrupt提前唤醒线程", "9、、Interrupt提前唤醒线程\9、Interrupt提前唤醒线程.csproj", "{6BFFFE7F-C881-4F10-8C47-2E83CCAA3B88}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12、线程同步的3中解决方案", "12、线程同步的3中解决方案\12、线程同步的3中解决方案.csproj", "{794654FA-4785-4B33-828E-8F4D14B5DDF2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13、单例模式与多线程", "13、单例模式与多线程\13、单例模式与多线程.csproj", "{A71CB50B-C215-41F5-8640-4C9A6E9A563C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9、Interrupt提前唤醒线程", "9、Interrupt提前唤醒线程\9、Interrupt提前唤醒线程.csproj", "{6BFFFE7F-C881-4F10-8C47-2E83CCAA3B88}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,10 +75,6 @@ Global
 		{16E5B114-DA07-4822-8582-90419ABCA80A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{16E5B114-DA07-4822-8582-90419ABCA80A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{16E5B114-DA07-4822-8582-90419ABCA80A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6BFFFE7F-C881-4F10-8C47-2E83CCAA3B88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6BFFFE7F-C881-4F10-8C47-2E83CCAA3B88}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6BFFFE7F-C881-4F10-8C47-2E83CCAA3B88}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6BFFFE7F-C881-4F10-8C47-2E83CCAA3B88}.Release|Any CPU.Build.0 = Release|Any CPU
 		{794654FA-4785-4B33-828E-8F4D14B5DDF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{794654FA-4785-4B33-828E-8F4D14B5DDF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{794654FA-4785-4B33-828E-8F4D14B5DDF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -87,6 +83,10 @@ Global
 		{A71CB50B-C215-41F5-8640-4C9A6E9A563C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A71CB50B-C215-41F5-8640-4C9A6E9A563C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A71CB50B-C215-41F5-8640-4C9A6E9A563C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BFFFE7F-C881-4F10-8C47-2E83CCAA3B88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BFFFE7F-C881-4F10-8C47-2E83CCAA3B88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BFFFE7F-C881-4F10-8C47-2E83CCAA3B88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BFFFE7F-C881-4F10-8C47-2E83CCAA3B88}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

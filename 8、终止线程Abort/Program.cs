@@ -12,20 +12,16 @@ namespace 终止线程Abort
         static void Main(string[] args)
         {
 
-
             for (int i = 0; i < 40; i++)
             {
-                
-                
+                try
+                {
                     Thread thread = new Thread((item) =>
                     {
                         Console.WriteLine(item);
 
                     });
-                try
-                {
-                    // 没走到Cathch中，再研究
-                    thread.Abort();
+                    thread.Abort(); // 会引发异常
                     thread.Start(i);
                 }
 
@@ -33,10 +29,7 @@ namespace 终止线程Abort
                 {
                     Console.WriteLine(ex);
                 }
-
             }
-
-
         }
     }
 }

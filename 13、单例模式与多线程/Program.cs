@@ -15,12 +15,12 @@ namespace _13_单例模式与多线程
 
 
 
-    class God
+    class Person
     {
-        private static God instance = new God();
-        private God()
+        private static Person instance = new Person();
+        private Person()
         { }
-        public static God GetInstance()
+        public static Person GetInstance()
         {
             return instance;
         }
@@ -29,37 +29,37 @@ namespace _13_单例模式与多线程
 
     // 有时候需要真正第一次用到的时候再创建那个唯一实例（懒汉）。
 
-    class God1
+    class User
     {
-        private static God1 instance1 = null;
+        private static User instance = null;
 
-        private God1() { }
+        private User() { }
 
-        public static God1 GetInstance1()
+        public static User GetInstance1()
         {
-            if (instance1 == null)
+            if (instance == null)
             {
-                return new God1();
+                return new User();
             }
-            return instance1;
+            return instance;
         }
     }
 
     // 这样写在多线程的环境下可能无法保证单例。
     //用 lock 可以保证
-    class God2
+    class Dog
     {
-        private static God2 instance = null;
+        private static Dog instance = null;
         private static object locker = new object();
-        private God2()
+        private Dog()
         { }
-        public static God2 GetInstance()
+        public static Dog GetInstance()
         {
             lock (locker)
             {
                 if (instance == null)
                 {
-                    instance = new God2();
+                    instance = new Dog();
                 }
                 return instance;
             }
@@ -72,13 +72,13 @@ namespace _13_单例模式与多线程
 //  class God
 //
 
-class God3
+class Cat
 {
-    private static God3 instance = null;
+    private static Cat instance = null;
     private static object locker = new object();
-    private God3()
+    private Cat()
     { }
-    public static God3 GetInstance()
+    public static Cat GetInstance()
     {
         if (instance == null)
         {
@@ -86,7 +86,7 @@ class God3
             {
                 if (instance == null)
                 {
-                    instance = new God3();
+                    instance = new Cat();
                 }
             }
         }
