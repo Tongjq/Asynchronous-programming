@@ -88,5 +88,11 @@ namespace _19_TPL编程模型
             });
         }
 
+        private async void button4_Click(object sender, EventArgs e)
+        {
+            string s = await F2Async();
+            MessageBox.Show(s);
+
+        }
     }
 }
